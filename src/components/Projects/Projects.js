@@ -1,13 +1,11 @@
 import React from "react";
-import { Container, Row, Col } from "react-bootstrap";
-import ProjectCard from "./ProjectCards";
-import Particle from "../Particle";
-import leaf from "../../Assets/Projects/leaf.png";
-import emotion from "../../Assets/Projects/emotion.png";
-import editor from "../../Assets/Projects/codeEditor.png";
-import chatify from "../../Assets/Projects/chatify.png";
-import suicide from "../../Assets/Projects/suicide.png";
+import { Col, Container, Row } from "react-bootstrap";
 import bitsOfCode from "../../Assets/Projects/blog.png";
+import chatify from "../../Assets/Projects/chatify.png";
+import editor from "../../Assets/Projects/codeEditor.png";
+import leaf from "../../Assets/Projects/leaf.png";
+import Particle from "../Particle";
+import ProjectCard from "./ProjectCards";
 
 function Projects() {
   return (
@@ -25,88 +23,72 @@ function Projects() {
             <ProjectCard
               imgPath={chatify}
               isBlog={false}
-              title="Cake-Shop"
-              description="The Cake Shop Project is an interactive web application designed for an online cake store. It allows users to browse different cakes, view detailed descriptions, place orders, and make payments seamlessly. The platform provides a user-friendly interface with features such as user authentication, a shopping cart, and an order tracking system.
+              title="Task Manageent"
+              description="Created a task management app with React front-end and Spring Boot back-end.
+ • Integrated REST APIs for task CRUD operations and user authentication.
+ • Focused on engineering a high-performance solution with optimized UI for seamless user experience.
 
 Key Features:
 
 🎂 User Authentication (Login/Signup)
-🛒 Shopping Cart & Checkout
 🍰 Cake Categories & Filters
-💳 Online Payment Integration
-📦 Order Management & Tracking
 🔍 Search Functionality
 
 Technologies Used:
 
 Frontend: HTML, CSS, JavaScript, React.js
 Backend: Node.js, Express.js
-Database: MongoDB
+Database: Mysql
 ."
-              ghLink="https://github.com/impragyaverma/Cake-Shop"
-              demoLink="https://vishucakeshop.netlify.app/"
+              ghLink="https://github.com/nishisharma842004/Task_Management"
+             
             />
           </Col>
 
-          <Col md={4} className="project-card">
+          <Col md={4} className="Spam Detection">
             <ProjectCard
               imgPath={bitsOfCode}
               isBlog={false}
-              title="Online-Job-Portal"
-              description="My personal blog page build with Next.js and Tailwind Css which takes the content from makdown files and renders it using Next.js. Supports dark mode and easy to write blogs using markdown."
-              ghLink="https://github.com/impragyaverma/OnlineCareer"
-              demoLink="https://online-career.vercel.app/"
+              title=" App"
+              description="For detecting The mail is spam or Ham"
+              ghLink="https://colab.research.google.com/drive/10rzAkJmnlDU1wzQsGZ_NRNf4LHYFuJct##scrollTo=3FHZ3uFLLcTm"
+              
             />
           </Col>
 
-          <Col md={4} className="project-card">
+          <Col md={4} className="GFG Hackathon">
             <ProjectCard
               imgPath={editor}
               isBlog={false}
-              title="Health-Care-Website"
-              description="The Online Job Portal is a web application designed to connect job seekers with employers. It provides a seamless platform for users to search for jobs, apply for positions, and manage applications. Employers can post job listings, review applicants, and communicate with potential hires. The platform offers advanced filtering and categorization to enhance the job search experience.
+              title="Weather App"
+              description=" • Designed a weather app using HTML, CSS, JavaScript, and Weather API.
+ • Delivered a functional prototype within 48 hours, integrating location-based APIs for real-time updates.
+ • Demonstrated abilities as a software engineer in rapid prototyping under time constraints.:
 
-Key Features:
 
-📂 User Authentication (Job Seeker & Employer Login)
-🔍 Advanced Job Search & Filters
-📝 Resume Upload & Profile Management
-📢 Job Posting & Management for Employers
-📬 Application Tracking & Status Updates
-📨 Email Notifications for New Jobs & Applications
 
-Technologies Used:
 
-Frontend: HTML, CSS, JavaScript, React.js
-Backend: Node.js, Express.js
-Database: MongoDB
 Deployment: Firebase / Vercel"
-              ghLink="https://github.com/impragyaverma/health-care"
-              demoLink="https://health-care-eb613.web.app"              
+              ghLink="https://github.com/nishisharma842004/Whether-application/tree/main/Wheather%20app"
+             
             />
           </Col>
 
-          <Col md={4} className="project-card">
+          <Col md={4} className="Operation Scheduler">
             <ProjectCard
               imgPath={leaf}
               isBlog={false}
-              title="calculator"
-              description="The Calculator is a simple and user-friendly web application that performs basic arithmetic operations. It provides an interactive interface where users can perform calculations like addition, subtraction, multiplication, and division. The application ensures smooth user experience with real-time updates and a responsive design.
+              title="APP"
+              description="Created a app for Hospital Management.
 
-Key Features:
 
-🧮 Basic Arithmetic Operations (Addition, Subtraction, Multiplication, Division)
-🎨 User-Friendly & Responsive Design
-⌨️ Keyboard Input Support
-🖥️ Clear & Backspace Functionality
-🌙 Light/Dark Mode (Optional)
 
 Technologies Used:
 
 Frontend: HTML, CSS, JavaScript
 Logic Implementation: JavaScript (Vanilla JS / React.js."
-              ghLink="https://github.com/impragyaverma/cal-react"
-              demoLink="https://impragyaverma.github.io/cal-react/"
+              ghLink="https://github.com/nishisharma842004/Operation-Scheduler"
+           
             />
           </Col>
 
