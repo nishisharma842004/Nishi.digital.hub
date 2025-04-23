@@ -1,6 +1,6 @@
 <h2 align="center">
   Portfolio Website - v2.0<br/>
-  <a href="https://soumyajit.vercel.app/" target="_blank">Nishi Sharma.tech</a>
+  <a href="[https://soumyajit.vercel.app](https://nishi-digital-hub.vercel.app/)/" target="_blank">Nishi Sharma.tech</a>
 </h2>
 <div align="center">
   <img alt="Demo" src="./Images/readme-img1.png" />
@@ -70,4 +70,4 @@ You will find all the components used and you can edit your information accordin
 ### Show your support
 
 Give a ⭐ if you like this website!
-https://github.com/impragyaverma/Pragya-s-digital-hub
+[https://github.com/impragyaverma/Pragya-s-digital-hub](https://github.com/nishisharma842004)
