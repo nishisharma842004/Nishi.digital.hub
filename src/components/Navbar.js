@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
@@ -8,6 +8,7 @@ import {
   AiFillStar,
   AiOutlineFundProjectionScreen,
   AiOutlineHome,
+  AiOutlineLaptop,
   AiOutlineUser,
 } from "react-icons/ai";
 import { CgFileDocument, CgGitFork } from "react-icons/cg";
@@ -78,6 +79,7 @@ function NavBar() {
                 Projects
               </Nav.Link>
             </Nav.Item>
+
             <Nav.Item>
               <Nav.Link
                 as={Link}
@@ -88,7 +90,17 @@ function NavBar() {
               </Nav.Link>
             </Nav.Item>
 
-            {/* ✅ Add Coding Platforms Here */}
+            {/* ✅ Experience Section */}
+            <Nav.Item>
+              <Nav.Link
+                as={Link}
+                to="/experience"
+                onClick={() => updateExpanded(false)}
+              >
+                <AiOutlineLaptop style={{ marginBottom: "2px" }} /> Experience
+              </Nav.Link>
+            </Nav.Item>
+
             <Nav.Item>
               <Nav.Link
                 as={Link}
@@ -99,7 +111,6 @@ function NavBar() {
               </Nav.Link>
             </Nav.Item>
 
-            {/* ✅ Add Certificates Section Here */}
             <Nav.Item>
               <Nav.Link
                 as={Link}
