@@ -11,7 +11,7 @@ function AboutCard() {
             Hi Everyone, I am <span className="purple">Nishi Sharma DSA-( Mentor at GDG Society IGDTUW) </span>
             from <span className="purple"> Delhi, India.</span>
             <br />
-            I am currently pursuing my B.Tech in Mechanical and Automation Engineering at Indira Gandhi Delhi Technical University For Women (IGDTUW) and am a Web Development Intern at Unified Mentor.
+            I am currently pursuing my B.Tech in Mechanical and Automation Engineering at Indira Gandhi Delhi Technical University For Women (IGDTUW) and am a Web Development Intern at Celebal Technology.
            
             <br />
             Apart from coding, some other activities that I love to do!
